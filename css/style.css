@@ -8,10 +8,18 @@ body{
   background-color: #ADD8E6;
   font-family: 'Nerko One', cursive;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  text-align: center;
 }
 
 header > h1{
   color: white;
-  text-align: center;
-  font-size: 60px;
+  font-size: 50px;
 }                        /* /Intestazione*/
+
+.carta{
+  width: 130px;
+  height: 150px;
+  background-color: white;
+  margin: 10px 5px;
+  display: inline-block;
+}                        /* /Struttura carte*/
