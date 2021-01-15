@@ -33,21 +33,25 @@ header > h1{
   background-size: contain;
   }
 
-.carta:hover .background{
-  display: none;
-}
-
-.carta:hover .contenuto{
-  display: block;
-}
-
-.contenuto{
-  display: none;
-  color: orange;
-}
-
 .contenuto > img{
   padding-top: 15px;
   width: 100px;
   height: 120px;
+}
+
+.background, .contenuto{
+  position: absolute;
+}
+
+.background{
+  z-index: 3;
+}
+
+.contenuto{
+  z-index: 2;
+  color: orange;
+}
+
+.carta:hover .background{
+  z-index: 1;
 }                  /* /Carte*/
