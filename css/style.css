@@ -9,11 +9,12 @@ body{
   font-family: 'Nerko One', cursive;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
   text-align: center;
+
 }
 
 header > h1{
   color: white;
-  font-size: 50px;
+  font-size: 60px;
 }                        /* /Intestazione*/
 
 .carta{                  /* Carte*/
@@ -33,7 +34,7 @@ header > h1{
 .background{
   background-image: url(../img/pattern.png);
   background-size: contain;
-  }
+}
 
 .contenuto > img{
   padding-top: 15px;
@@ -56,10 +57,16 @@ header > h1{
 
 .carta:hover .background{
   z-index: 1;
-}                  /* /Carte*/
+}                                   /* /Carte*/
+
 #speciale > .background{
   z-index: 1;
 }
+
 #speciale h2{
   color: fuchsia;
+}                                   /* /ID Speciale*/
+
+footer {
+  text-shadow: 0px 0px 0px;
 }
