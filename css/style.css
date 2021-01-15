@@ -26,6 +26,8 @@ header > h1{
   width: 150px;
   height: 180px;
   background-color: white;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
 
 .background{
@@ -55,3 +57,9 @@ header > h1{
 .carta:hover .background{
   z-index: 1;
 }                  /* /Carte*/
+#speciale > .background{
+  z-index: 1;
+}
+#speciale h2{
+  color: fuchsia;
+}
