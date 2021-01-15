@@ -16,10 +16,38 @@ header > h1{
   font-size: 50px;
 }                        /* /Intestazione*/
 
-.carta{
-  width: 130px;
-  height: 150px;
-  background-color: white;
+.carta{                  /* Carte*/
+  position: relative;
   margin: 10px 5px;
   display: inline-block;
-}                        /* /Struttura carte*/
+}
+
+.carta, .background, .contenuto{
+  width: 150px;
+  height: 180px;
+  background-color: white;
+}
+
+.background{
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  }
+
+.carta:hover .background{
+  display: none;
+}
+
+.carta:hover .contenuto{
+  display: block;
+}
+
+.contenuto{
+  display: none;
+  color: orange;
+}
+
+.contenuto > img{
+  padding-top: 15px;
+  width: 100px;
+  height: 120px;
+}                  /* /Carte*/
